@@ -2,7 +2,7 @@
 
 # Employee Database: A Mystery in Two Parts
 
-![sql.png](/EmployeeSQL/Images/sql.png')
+![sql.png](/EmployeeSQL/Images/sql.png)
 
 ## Background
 
@@ -20,7 +20,7 @@ In this assignment, the tables to hold data in the CSVs, import the CSVs into a 
 
 The provided CSVs were inspected and an ERD of the tables was created using http://www.quickdatabasediagrams.com.
 
-![ERD Diagram](/EmployeeSQL/ERD/QuickDBD-Employees_ERD.png')
+![ERD Diagram](/EmployeeSQL/ERD/QuickDBD-Employees_ERD.png)
 
 
 ## Data Engineering
@@ -31,7 +31,7 @@ The provided CSVs were inspected and an ERD of the tables was created using http
 
 ## Data Analysis
 
-A serie of queries were generated [SQL Queries](/Employee/query.sql) in order to perform the following:
+A serie of queries were generated [SQL Queries](/EmployeeSQL/query.sql) in order to perform the following:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
@@ -57,11 +57,11 @@ While the data was examined, there was a creeping suspicion that the dataset is 
 
 2. A histogram to visualize the most common salary ranges for employees was created.
 
-![Histogram Salary Ranges](/EmployeeSQL/Images/Dist_salary_employees.png')
+![Histogram Salary Ranges](/EmployeeSQL/Images/Dist_salary_employees.png)
 
 3. A bar chart of average salary by title was created.
 
-![Average Salary by Title](/EmployeeSQL/Images/Average_Salary_byTitle.png')
+![Average Salary by Title](/EmployeeSQL/Images/Average_Salary_byTitle.png)
 
 As the data was examined, the suspicion that the dataset is fake incresed since there should be a larger difference in average salaries between the different job titles.
 
@@ -69,7 +69,7 @@ As the data was examined, the suspicion that the dataset is fake incresed since 
 
 Evidence in hand, you march into your boss's office and present the visualization. With a sly grin, your boss thanks you for your work. On your way out of the office, you hear the words, "Search your ID number." You look down at your badge to see that your employee ID number is 499942.
 
-The name turns out to be
+The name turns out to be:
 
 ### April Foolsday!
 
